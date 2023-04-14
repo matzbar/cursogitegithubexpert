@@ -49,3 +49,21 @@ git status
 git commit -m "Primeiro commit"
 git status
 ```
+
+### Enviando os arquivos para github
+
+Renomeia o nome da branch para main (forçado)
+```
+git branch -M main
+```
+
+Acessar a pasta principal do repositório
+```
+git remote add origin git@github.com:matzbar/cursogitegithubexpert.git
+```
+
+Enviar alterações para o repositório
+```
+git push -u origin main
+```
+
