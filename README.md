@@ -67,3 +67,24 @@ Enviar alterações para o repositório
 git push -u origin main
 ```
 
+### Segundo commit
+
+Alterando o arquivo, criando segundo commit e enviando arquivos para o repositório no Github
+
+```
+git status
+git add .
+git commit -m "Segundo commit"
+git status
+git push
+```
+
+### Terceiro commit e finalizando o desafio
+
+```
+git status
+git add .
+git commit -m "Terceiro commit e finalizando o desafio"
+git status
+git push
+```
