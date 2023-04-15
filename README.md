@@ -22,8 +22,11 @@ git config --global user.email "matzbar@gmail.com"
 git config --list
 ```
 
-## Criando a hash SSH
+## Conectar-se ao GitHub com o SSH
+[https://docs.github.com/pt/authentication/connecting-to-github-with-ssh](https://docs.github.com/pt/authentication/connecting-to-github-with-ssh)
 
+
+### Gerar uma nova chave SSH
 ```
 ssh-keygen -t ed25519 -C "matzbar@gmail.com"
 ```
